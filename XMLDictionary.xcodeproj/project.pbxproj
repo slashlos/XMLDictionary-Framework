@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24B495FE1B56C916005EC321 /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B495FC1B56C916005EC321 /* XMLDictionary.h */; };
+		24B495FF1B56C916005EC321 /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B495FC1B56C916005EC321 /* XMLDictionary.h */; };
+		24B496001B56C916005EC321 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B495FD1B56C916005EC321 /* XMLDictionary.m */; };
+		24B496011B56C916005EC321 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B495FD1B56C916005EC321 /* XMLDictionary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24B495C11B56C834005EC321 /* XMLDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMLDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B495E21B56C8F5005EC321 /* XMLDictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMLDictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B495FC1B56C916005EC321 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		24B495FD1B56C916005EC321 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		24B496021B56C929005EC321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		24B496041B56C934005EC321 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		24B496051B56C934005EC321 /* iOS Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Application.xcconfig"; sourceTree = "<group>"; };
+		24B496061B56C934005EC321 /* iOS Bundle.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Bundle.xcconfig"; sourceTree = "<group>"; };
+		24B496071B56C934005EC321 /* iOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Framework.xcconfig"; sourceTree = "<group>"; };
+		24B496081B56C934005EC321 /* iOS Static Library.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Static Library.xcconfig"; sourceTree = "<group>"; };
+		24B496091B56C934005EC321 /* iOS Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Tests.xcconfig"; sourceTree = "<group>"; };
+		24B4960A1B56C934005EC321 /* OS X Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "OS X Application.xcconfig"; sourceTree = "<group>"; };
+		24B4960B1B56C934005EC321 /* OS X Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "OS X Framework.xcconfig"; sourceTree = "<group>"; };
+		24B4960C1B56C934005EC321 /* OS X Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "OS X Tests.xcconfig"; sourceTree = "<group>"; };
+		24B4960D1B56C934005EC321 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		24B4960E1B56C934005EC321 /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		24B4960F1B56C934005EC321 /* update.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = update.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24B495BD1B56C834005EC321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B495DE1B56C8F5005EC321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24B495B71B56C834005EC321 = {
+			isa = PBXGroup;
+			children = (
+				24B496031B56C934005EC321 /* Configurations */,
+				24B495FB1B56C916005EC321 /* XMLDictionary */,
+				24B495C21B56C834005EC321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24B495C21B56C834005EC321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24B495C11B56C834005EC321 /* XMLDictionary.framework */,
+				24B495E21B56C8F5005EC321 /* XMLDictionary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24B495FB1B56C916005EC321 /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				24B495FC1B56C916005EC321 /* XMLDictionary.h */,
+				24B495FD1B56C916005EC321 /* XMLDictionary.m */,
+				24B496021B56C929005EC321 /* Info.plist */,
+			);
+			name = XMLDictionary;
+			path = XMLDictionary/XMLDictionary;
+			sourceTree = "<group>";
+		};
+		24B496031B56C934005EC321 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				24B496041B56C934005EC321 /* Debug.xcconfig */,
+				24B496051B56C934005EC321 /* iOS Application.xcconfig */,
+				24B496061B56C934005EC321 /* iOS Bundle.xcconfig */,
+				24B496071B56C934005EC321 /* iOS Framework.xcconfig */,
+				24B496081B56C934005EC321 /* iOS Static Library.xcconfig */,
+				24B496091B56C934005EC321 /* iOS Tests.xcconfig */,
+				24B4960A1B56C934005EC321 /* OS X Application.xcconfig */,
+				24B4960B1B56C934005EC321 /* OS X Framework.xcconfig */,
+				24B4960C1B56C934005EC321 /* OS X Tests.xcconfig */,
+				24B4960D1B56C934005EC321 /* Release.xcconfig */,
+				24B4960E1B56C934005EC321 /* Shared.xcconfig */,
+				24B4960F1B56C934005EC321 /* update.sh */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24B495BE1B56C834005EC321 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B495FE1B56C916005EC321 /* XMLDictionary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B495DF1B56C8F5005EC321 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B495FF1B56C916005EC321 /* XMLDictionary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24B495C01B56C834005EC321 /* XMLDictionary iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B495D71B56C834005EC321 /* Build configuration list for PBXNativeTarget "XMLDictionary iOS" */;
+			buildPhases = (
+				24B495BC1B56C834005EC321 /* Sources */,
+				24B495BD1B56C834005EC321 /* Frameworks */,
+				24B495BE1B56C834005EC321 /* Headers */,
+				24B495BF1B56C834005EC321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMLDictionary iOS";
+			productName = XMLDictionary;
+			productReference = 24B495C11B56C834005EC321 /* XMLDictionary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		24B495E11B56C8F5005EC321 /* XMLDictionary OS X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B495F51B56C8F5005EC321 /* Build configuration list for PBXNativeTarget "XMLDictionary OS X" */;
+			buildPhases = (
+				24B495DD1B56C8F5005EC321 /* Sources */,
+				24B495DE1B56C8F5005EC321 /* Frameworks */,
+				24B495DF1B56C8F5005EC321 /* Headers */,
+				24B495E01B56C8F5005EC321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMLDictionary OS X";
+			productName = "XMLDictionary OS X";
+			productReference = 24B495E21B56C8F5005EC321 /* XMLDictionary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24B495B81B56C834005EC321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Daniel Tull";
+				TargetAttributes = {
+					24B495C01B56C834005EC321 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					24B495E11B56C8F5005EC321 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 24B495BB1B56C834005EC321 /* Build configuration list for PBXProject "XMLDictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24B495B71B56C834005EC321;
+			productRefGroup = 24B495C21B56C834005EC321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24B495C01B56C834005EC321 /* XMLDictionary iOS */,
+				24B495E11B56C8F5005EC321 /* XMLDictionary OS X */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24B495BF1B56C834005EC321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B495E01B56C8F5005EC321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24B495BC1B56C834005EC321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B496001B56C916005EC321 /* XMLDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B495DD1B56C8F5005EC321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B496011B56C916005EC321 /* XMLDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		24B495D51B56C834005EC321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B496041B56C934005EC321 /* Debug.xcconfig */;
+			buildSettings = {
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Wno-auto-import",
+				);
+			};
+			name = Debug;
+		};
+		24B495D61B56C834005EC321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B4960D1B56C934005EC321 /* Release.xcconfig */;
+			buildSettings = {
+				WARNING_CFLAGS = (
+					"$(inherited)",
+					"-Wno-auto-import",
+				);
+			};
+			name = Release;
+		};
+		24B495D81B56C834005EC321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B496071B56C934005EC321 /* iOS Framework.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = XMLDictionary;
+			};
+			name = Debug;
+		};
+		24B495D91B56C834005EC321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B496071B56C934005EC321 /* iOS Framework.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = XMLDictionary;
+			};
+			name = Release;
+		};
+		24B495F61B56C8F5005EC321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B4960B1B56C934005EC321 /* OS X Framework.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = XMLDictionary;
+			};
+			name = Debug;
+		};
+		24B495F71B56C8F5005EC321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B4960B1B56C934005EC321 /* OS X Framework.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = XMLDictionary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24B495BB1B56C834005EC321 /* Build configuration list for PBXProject "XMLDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B495D51B56C834005EC321 /* Debug */,
+				24B495D61B56C834005EC321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24B495D71B56C834005EC321 /* Build configuration list for PBXNativeTarget "XMLDictionary iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B495D81B56C834005EC321 /* Debug */,
+				24B495D91B56C834005EC321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24B495F51B56C8F5005EC321 /* Build configuration list for PBXNativeTarget "XMLDictionary OS X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B495F61B56C8F5005EC321 /* Debug */,
+				24B495F71B56C8F5005EC321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24B495B81B56C834005EC321 /* Project object */;
+}

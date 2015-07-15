@@ -1,0 +1,6 @@
+[submodule "Configurations"]
+	path = Configurations
+	url = git://github.com/danielctull/Xcode-Configurations.git
+[submodule "XMLDictionary"]
+	path = XMLDictionary
+	url = git://github.com/danielctull-forks/XMLDictionary.git
