@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24B495FE1B56C916005EC321 /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B495FC1B56C916005EC321 /* XMLDictionary.h */; };
-		24B495FF1B56C916005EC321 /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B495FC1B56C916005EC321 /* XMLDictionary.h */; };
+		24B495FE1B56C916005EC321 /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B495FC1B56C916005EC321 /* XMLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24B495FF1B56C916005EC321 /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B495FC1B56C916005EC321 /* XMLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24B496001B56C916005EC321 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B495FD1B56C916005EC321 /* XMLDictionary.m */; };
 		24B496011B56C916005EC321 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B495FD1B56C916005EC321 /* XMLDictionary.m */; };
 /* End PBXBuildFile section */
@@ -233,6 +233,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24B496041B56C934005EC321 /* Debug.xcconfig */;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"-Wno-auto-import",
@@ -314,6 +315,7 @@
 				24B495D91B56C834005EC321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24B495F51B56C8F5005EC321 /* Build configuration list for PBXNativeTarget "XMLDictionary OS X" */ = {
 			isa = XCConfigurationList;
@@ -322,6 +324,7 @@
 				24B495F71B56C8F5005EC321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
