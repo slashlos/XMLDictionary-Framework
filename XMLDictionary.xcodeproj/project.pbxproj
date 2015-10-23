@@ -292,6 +292,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24B496041B56C934005EC321 /* Debug.xcconfig */;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_TESTABILITY = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.danieltull.$(PRODUCT_NAME:rfc1034identifier)";
@@ -302,6 +303,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24B4960D1B56C934005EC321 /* Release.xcconfig */;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.danieltull.$(PRODUCT_NAME:rfc1034identifier)";
 			};
 			name = Release;
