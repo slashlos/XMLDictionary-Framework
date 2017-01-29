@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A7D8094F8FE2B7AAE481C56DA66BB02B35673F02",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8FDCB8C6CFBA78E0E3667763514775D0D62067AD" : 9223372036854775807,
+    "A7D8094F8FE2B7AAE481C56DA66BB02B35673F02" : 9223372036854775807,
+    "A7B927C638033B725B7749AC2AF16C72A0DF71F3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BDCFABAB-29D6-4401-B124-CA4B2894AF40",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8FDCB8C6CFBA78E0E3667763514775D0D62067AD" : "XMLDictionary-Framework\/Configurations\/",
+    "A7D8094F8FE2B7AAE481C56DA66BB02B35673F02" : "XMLDictionary-Framework\/",
+    "A7B927C638033B725B7749AC2AF16C72A0DF71F3" : "XMLDictionary-Framework\/XMLDictionary\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "XMLDictionary",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "XMLDictionary.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/danielctull\/Xcode-Configurations.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8FDCB8C6CFBA78E0E3667763514775D0D62067AD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/danielctull-forks\/XMLDictionary.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A7B927C638033B725B7749AC2AF16C72A0DF71F3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/danielctull-forks\/XMLDictionary-Framework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A7D8094F8FE2B7AAE481C56DA66BB02B35673F02"
+    }
+  ]
+}
