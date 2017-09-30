@@ -79,9 +79,9 @@
 			isa = PBXGroup;
 			children = (
 				247985071D9EB58E0046AACE /* Debug.xcconfig */,
+				247985191D9EB58E0046AACE /* Release.xcconfig */,
 				247985091D9EB58E0046AACE /* iOS */,
 				247985121D9EB58E0046AACE /* macOS */,
-				247985191D9EB58E0046AACE /* Release.xcconfig */,
 				247985211D9EB58E0046AACE /* tvOS */,
 				247985281D9EB58E0046AACE /* watchOS */,
 			);
@@ -260,7 +260,7 @@
 		24B495B81B56C834005EC321 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Daniel Tull";
 				TargetAttributes = {
 					24B495C01B56C834005EC321 = {
@@ -347,8 +347,6 @@
 			baseConfigurationReference = 247985071D9EB58E0046AACE /* Debug.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_TESTABILITY = YES;
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.danieltull.$(PRODUCT_NAME:rfc1034identifier)";
 			};
 			name = Debug;
