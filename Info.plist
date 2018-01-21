@@ -18,8 +18,16 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>tvOS</string>
+		<string>iOS</string>
+		<string>MacOSX</string>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>Mach-OLC_VERSION_MIN </key>
+	<string>10.11</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
 </dict>
