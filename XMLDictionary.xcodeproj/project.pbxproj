@@ -260,7 +260,7 @@
 		24B495B81B56C834005EC321 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Daniel Tull";
 				TargetAttributes = {
 					24B495C01B56C834005EC321 = {
@@ -273,10 +273,11 @@
 			};
 			buildConfigurationList = 24B495BB1B56C834005EC321 /* Build configuration list for PBXProject "XMLDictionary" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 24B495B71B56C834005EC321;
 			productRefGroup = 24B495C21B56C834005EC321 /* Products */;
@@ -346,6 +347,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 247985071D9EB58E0046AACE /* Debug.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
@@ -358,6 +361,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 247985191D9EB58E0046AACE /* Release.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
