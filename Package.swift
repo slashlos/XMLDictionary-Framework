@@ -1,4 +1,5 @@
-// XMLDictionray-Framework:1.1
+// XMLDictionary-Framework:1.4.1
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
