@@ -3,8 +3,6 @@
 
 import PackageDescription
 
-// XMLDictionary-Framework:1.4.1
-
 let package = Package(
     name: "XMLDictionary-Framework",
     platforms: [
