@@ -276,6 +276,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 24B495B71B56C834005EC321;
@@ -411,6 +412,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = Info.plist;
+				OTHER_CFLAGS = "-fmodules";
 				OTHER_LDFLAGS = "-Wno-messaging-id";
 				PRODUCT_NAME = XMLDictionary;
 			};
@@ -423,6 +425,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = Info.plist;
+				OTHER_CFLAGS = "-fmodules";
 				OTHER_LDFLAGS = "-Wno-messaging-id";
 				PRODUCT_NAME = XMLDictionary;
 			};
