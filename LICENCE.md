@@ -1,5 +1,5 @@
 XMLDictionary_Framework
-version 0.0, October 31, 2016
+Version 1.4.3, July 17, 2026
 
 Copyright (C) 2018 Carlos David Manuel Santiago
 
@@ -8,7 +8,8 @@ warranty.  In no event will the authors be held liable for any damages
 arising from the use of this software.
 
 Permission is granted to anyone to use this software for any purpose,
-including commercial applications, and to alter it and redistribute it
+including commercial applic:x
+ations, and to alter it and redistribute it
 freely, subject to the following restrictions:
 
 1. The origin of this software must not be misrepresented; you must not
