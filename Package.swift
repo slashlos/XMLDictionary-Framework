@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "xmldictionary-framework", // <-- Must be exact lowercase string Xcode expects
+    name: "XMLDictionary-Framework", // <-- Must be exact string Xcode expects
     products: [
         .library(
             name: "XMLDictionary", 
