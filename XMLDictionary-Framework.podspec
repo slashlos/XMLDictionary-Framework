@@ -97,10 +97,9 @@ Fork of Nick Lockwood's XMLDictionary
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files = "XMLDictionary/XMLDictionary/*.{h,m}"
-  spec.exclude_files = "XMLDictionary/Exclude"
-
-  # spec.public_header_files = "XMLDictionary/XMLDictionary/*.h"
+    spec.source_files = "XMLDictionary/XMLDictionary/*.{h,m}"
+  # spec.exclude_files = "XMLDictionary/Exclude"
+    spec.public_header_files = "XMLDictionary/XMLDictionary/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
