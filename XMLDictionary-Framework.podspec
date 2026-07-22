@@ -34,7 +34,7 @@ Fork of Nick Lockwood's XMLDictionary
      a hopeful deployment to continue a useful package
                    DESC
 
-  spec.homepage     = "http://github.com/slashlos/XMLDictionary-Framework"
+  spec.homepage     = "https://github.com/slashlos/XMLDictionary-Framework"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -86,7 +86,7 @@ Fork of Nick Lockwood's XMLDictionary
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://github.com/slashlos/XMLDictionary-Framework.git", :tag => "1.4.4" }
+  spec.source       = { :git => "https://github.com/slashlos/XMLDictionary-Framework.git", :tag => "1.4.4" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -97,10 +97,10 @@ Fork of Nick Lockwood's XMLDictionary
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files = "XMLDictionary/XMLDictionary/*.{h,m}"
+  spec.exclude_files = "XMLDictionary/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  # spec.public_header_files = "XMLDictionary/XMLDictionary/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
