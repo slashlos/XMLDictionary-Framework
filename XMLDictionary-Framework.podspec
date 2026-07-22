@@ -79,7 +79,8 @@ Fork of Nick Lockwood's XMLDictionary
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/slashlos/XMLDictionary-Framework.git", :tag => "1.4.4" }
+    spec.source       = { :git => "https://github.com/slashlos/XMLDictionary-Framework.git", :tag => "1.4.4" }
+  # spec.source       = { :path => '.' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
