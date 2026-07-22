@@ -1,18 +1,22 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
-    name: "XMLDictionary-Framework", // <-- Must be exact string Xcode expects?
+    name: "XMLDictionary-Framework",
+    platforms: [
+        .macOS(.v10_15), .iOS(.v13)
+    ],
     products: [
         .library(
-            name: "XMLDictionary", 
-            targets: ["XMLDictionary"]
-        )
+            name: "XMLDictionary-Framework",
+            targets: ["XMLDictionary"])
     ],
+    dependencies: [],
     targets: [
         .target(
             name: "XMLDictionary",
-            path: "XMLDictionary", // Point to folder containing XMLDictionary.h/.m
+            dependencies: [],
+            path: "XMLDictionary/XMLDictionary",
             publicHeadersPath: "."
         )
     ]
